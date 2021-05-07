@@ -9,5 +9,5 @@ setup(
     author="indrajit",
     author_email="indrajit411@gmail.com",
     description="Ready to use package distribution bundle by indrajit",
-    packages=["hello_world"],
+    packages=["hello_world", "second_package"],
 )
