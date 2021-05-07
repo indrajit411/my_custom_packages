@@ -9,5 +9,6 @@ setup(
     author="indrajit",
     author_email="indrajit411@gmail.com",
     description="Ready to use package distribution bundle by indrajit",
-    packages=find_packages(include=["hello_world", "second_package"]),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
 )
