@@ -9,6 +9,5 @@ setup(
     author="indrajit",
     author_email="indrajit411@gmail.com",
     description="Ready to use package distribution bundle by indrajit",
-    package_dir={"": "src"},
-    packages=find_packages(where="src"),
+    packages=["hello_world", "forecasting_helpers"],
 )
